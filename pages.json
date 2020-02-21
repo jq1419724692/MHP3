@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "MPH3Tool",
+				"app-plus":{
+					"titleNView":{
+						// "autoBackButton":"false",
+						"buttons":[
+							{"text":"\ue648","fontSrc":"/static/iconfont.ttf","fontSize":"22px","float":"left"},
+							{"text":"\ue61a","fontSrc":"/static/iconfont.ttf","fontSize":"22px","float":"right"}
+							]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/database/database",
+            "style" : {
+				"navigationBarTitleText": "微型数据库"
+			}
+        }
+        ,{
+            "path" : "pages/database_02/database_02",
+            "style" : {
+				"navigationBarTitleText": "调和列表"
+			}
+        }
+        ,{
+            "path" : "pages/database_04/database_04",
+            "style" : {
+				"navigationBarTitleText": "随行猫技能"
+			}
+        }
+        ,{
+            "path" : "pages/database_12/database_12",
+            "style" : {
+				"navigationBarTitleText": "道具一览"
+			}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {
+				"navigationBarTitleText": "关于与支持"
+			}
+        }
+        ,{
+            "path" : "pages/task/task",
+            "style" : {
+				"navigationBarTitleText": "配信任务"
+			}
+        }
+        ,{
+            "path" : "pages/gameassistant/gameassistant",
+            "style" : {
+				"navigationBarTitleText": "游戏辅助"
+			}
+        }
+        ,{
+            "path" : "pages/managefile/managefile",
+            "style" : {
+				"navigationBarTitleText": "管理存档"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	}
+}
